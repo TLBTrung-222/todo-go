@@ -5,7 +5,7 @@ export default defineConfig({
     plugins: [react()],
     server: {
         proxy: {
-            "/tasks": "http://localhost:8080",
+            "/tasks": "https://todo-go-g2zv.onrender.com",
         },
     },
 });
